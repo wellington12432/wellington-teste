@@ -1,4 +1,23 @@
-header{
-    background-color: #f50000;
-    color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho{
+    background-color: #110f0f;
+    color: rgb(236, 243, 243);
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+
+.cabeçalho-imagem{
+    width: 12%;
+    
+}
+
+.cabeçalho-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 20px;
 }
